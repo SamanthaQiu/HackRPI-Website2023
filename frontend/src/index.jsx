@@ -8,6 +8,7 @@ import AboutPage from './Pages/AboutPage/AboutPage.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SponsorPage from './Pages/SponsorPage/SponsorPage.jsx';
+import Prizes from './Pages/Prizes/Prizes.jsx';
 import './style.css';
 // import './fonts.css';
 
@@ -39,6 +40,7 @@ function App() {
 			<FAQPage />
 			<SponsorPage/>
 			<Footer />
+			<Prizes />
 		</div>
 	);
 }
